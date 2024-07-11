@@ -1,0 +1,11 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    background-color: #6278F7;
+    text-align: center;
+}
+
+ img {
+    height: 50vh;
+    width: 100%;
+}

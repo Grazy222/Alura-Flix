@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  border-bottom: 4px solid  #2271D1;
+  box-shadow: 0px 5px 29px 0px #2271D1B2;
+  border: solid;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  background: #262626;
+  height: 20vh;
+
+
+}
+h3 {
+  color: blue;
+  font-size: 2em;
+}
+
+.home{
+    width: 30%;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+
+}
+.liHome{
+    width: 40%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    border-radius: 5%;
+    justify-content: center;
+    color: blue;
+    box-shadow: 0px 5px 29px 0px #2271D1B2;
+    border: solid rgb(70, 70, 236);
+}
+.liVideo{
+    width: 40%;
+    height: 6vh;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(216, 216, 236);
+    box-shadow: 0px 5px 29px 0px #d8dfe9b2;
+    border: solid rgb(214, 214, 235);
+}
+li:hover{
+    cursor: pointer;
+}
